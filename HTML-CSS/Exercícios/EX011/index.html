@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse sites em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto G">
+    </picture>
+    <h1>Reproduzir audio</h1>
+    <p>vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" controls>
+        <source src="midia/Lois falling to God is a woman Jiafei Remix_F6jWppEDoV8.mp3" type="audio/mpeg">
+        <source src="midia/Lois falling to God is a woman Jiafei Remix_F6jWppEDoV8.ogg" type="audio/ogg">
+        <source src="midia/Lois falling to God is a woman Jiafei Remix_F6jWppEDoV8.wav" type="audio/wav">
+    </audio>
+    <img src="data:image/jpeg;base64,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" alt="Urso">
+    <p>infelizmente seu navrgador não consegue reporduzir áudio <a href="midia/Lois falling to God is a woman Jiafei Remix_F6jWppEDoV8.mp3" dowload>clique aqui para baixar o baixar o aqruivo</a></p>
+</body>
+</html>
