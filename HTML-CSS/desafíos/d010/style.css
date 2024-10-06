@@ -31,6 +31,7 @@ header nav{
 
 
 a {
+    padding: 10px;
     color: whitesmoke;
     text-decoration: none;
 }
@@ -93,6 +94,15 @@ footer{
     background-color: #1A5C38;
     text-align: center;
     
+}
+
+aside p{
+    Padding: 10px;
+    text-align: justify ;
+}
+
+aside ul{
+    columns: 2;
 }
 
 .android{
