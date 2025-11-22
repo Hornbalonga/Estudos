@@ -17,8 +17,30 @@ header {
       align-items: center;
       justify-content: space-between;
 }
+main {
 
+      font-family: 'Chiron Sung HK', sans-serif;
+      color: #000;
+      font-weight: bold;
+      line-height: 1.5;
+      font-size: 20px;
+      text-align: justify;
+}
 
+article {
+    /* Garante que o article ocupe todo o espaço disponível dentro do main */
+    width: 100%;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
 .titulo {
       margin: auto;
@@ -57,23 +79,7 @@ header {
 }
 
 /* parágrafos do conteúdo principal */
-main {
 
-      font-family: 'Chiron Sung HK', sans-serif;
-      color: #000;
-      font-weight: bold;
-      line-height: 1.5;
-      font-size: 20px;
-      text-align: justify;
-      max-width: 800px;
-      
-      
-}
-
-article {
-    /* Garante que o article ocupe todo o espaço disponível dentro do main */
-    width: 100%;
-}
 
 .p1 {
       box-shadow: #000 0px 0px 0px;
@@ -114,14 +120,4 @@ article {
       background-repeat: no-repeat;
       background-attachment: fixed;
       
-}
-
-footer {
-    background-color: #000000;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
